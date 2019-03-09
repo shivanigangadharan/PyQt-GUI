@@ -39,13 +39,15 @@ class ControlWindow(QtGui.QWidget):
         
         self.centralwidget=QtGui.QWidget(self)
 
-        self.start_button = QtGui.QPushButton('START')
+        self.start_button = QtGui.QPushButton('Start')
         self.start_button.clicked.connect(self.start_application)
         self.start_button.resize(self.start_button.minimumSizeHint())
+        #icon=QtGui.QIcon()
+        #icon.addPixmap(QtGui.QPixmap('start.jpg'),QtGui.QIcon.Normal,QtGui.QIcon.Off)
         #self.start_button.setIcon(icon)
-        #self.start_button.setStyleSheet("background-image:url(\"start.png\")")
-        #self.start_button.setStyleSheet("height:20px")
-        self.start_button.setStyleSheet("height:20px; margin:20px;")
+        #self.start_button.setIconSize(QtCore.QSize(40,40))
+        self.start_button.setStyleSheet("height:20px")
+        self.start_button.setStyleSheet("height:50px; margin:20px;width:5px")
        
 
         self.stop_button = QtGui.QPushButton('PAUSE')
