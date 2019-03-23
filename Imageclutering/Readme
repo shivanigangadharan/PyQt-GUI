@@ -1,1 +1,8 @@
 This is the folder having the image clustering gui code files written in pyqt
+basic1 is the code for browsing multiple images and showing them on the same window .
+basic2 is the code for the text box
+
+basic 3 is  the copy of the basic 1 for safety purpose
+now we have to combine basic 1 and basic2 i.e each image has its own textinpt box 
+
+
